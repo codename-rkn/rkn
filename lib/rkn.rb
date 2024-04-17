@@ -3,7 +3,7 @@
 require "rkn/license"
 require_relative "rkn/version"
 
-module SCNR
+module RKN
   class Error < StandardError; end
 
   class<<self

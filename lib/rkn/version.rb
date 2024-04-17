@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
-module SCNR
+module RKN
   VERSION = IO.read( File.dirname( __FILE__ ) + '/version' ).strip
 end
