@@ -4,7 +4,7 @@ require_relative "lib/rkn/version"
 
 Gem::Specification.new do |spec|
   spec.name = "rkn"
-  spec.version = SCNR::VERSION
+  spec.version = RKN::VERSION
   spec.authors = ["Tasos Laskos"]
   spec.email = ["tasos.laskos@ecsypno.com"]
 
