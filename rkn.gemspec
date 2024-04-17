@@ -1,16 +1,14 @@
 # frozen_string_literal: true
 
-require_relative "lib/scnr/version"
+require_relative "lib/rkn/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "scnr"
+  spec.name = "rkn"
   spec.version = SCNR::VERSION
   spec.authors = ["Tasos Laskos"]
   spec.email = ["tasos.laskos@ecsypno.com"]
 
-  spec.summary           = 'SCNR is a feature-full, modular, high-performance' +
-    ' Ruby framework aimed towards helping penetration testers and' +
-    ' administrators evaluate the security of web applications.'
+  spec.summary           = 'Codename RKN.'
   spec.homepage = "http://ecsypno.com"
   spec.required_ruby_version = ">= 2.6.0"
 
@@ -21,5 +19,5 @@ Gem::Specification.new do |spec|
   spec.files += Dir.glob( 'bin/.gitkeep' )
   spec.files += Dir.glob( 'lib/**/**' )
 
-  spec.add_dependency "scnr-license-client", "~> 0.1"
+  spec.add_dependency "rkn-license-client", "~> 0.1"
 end

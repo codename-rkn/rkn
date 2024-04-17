@@ -1,14 +1,14 @@
 # frozen_string_literal: true
 
-require "scnr/license"
-require_relative "scnr/version"
+require "rkn/license"
+require_relative "rkn/version"
 
 module SCNR
   class Error < StandardError; end
 
   class<<self
     def edition
-      ENV['SCNR_EDITION'].to_sym
+      ENV['RKN_EDITION'].to_sym
     end
   end
 
