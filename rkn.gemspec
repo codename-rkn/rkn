@@ -18,6 +18,4 @@ Gem::Specification.new do |spec|
 
   spec.files += Dir.glob( 'bin/.gitkeep' )
   spec.files += Dir.glob( 'lib/**/**' )
-
-  spec.add_dependency "rkn-license-client", "~> 0.1"
 end
