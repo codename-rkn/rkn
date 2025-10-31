@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require "rkn/license"
 require_relative "rkn/version"
 
 module RKN
